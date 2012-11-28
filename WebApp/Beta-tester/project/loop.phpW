@@ -1,0 +1,5 @@
+</div>
+<div class="modal-body">
+    <h3>project/loop.php</h3>
+    <pre class="prettyprint linenums"><ol class="linenums"><li class="L0">&lt;?php</li><li class="L1">for ($index = 0; $index < 10; $index++) {</li><li class="L2"> echo $i;</li><li class="L3">}</li><li class="L4">?&gt;</li></ol></pre>
+</div>
