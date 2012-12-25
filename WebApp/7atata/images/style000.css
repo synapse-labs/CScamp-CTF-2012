@@ -1,0 +1,1135 @@
+/*
+File Name: style.css
+*/
+.pic{
+	margin:0px auto;
+	margin-top:10px;
+	border:1px black solid;
+	margin-left:30px;
+	float:left;
+	width:160px;
+}
+/* body */
+    body {
+        margin:0px auto;
+        padding:0px;
+        font-family: 'Arial', 'Verdana', Helvetica san-serif;
+        font-size:12px;
+        line-height:21px;
+        position:relative;
+    }
+
+/* Reset */
+    ul, ol,li, h1,h2,h3,h4,h5,h6,form,p,a,img{
+        margin:0;
+        padding:0;
+        border:0;
+    }
+    .clear{
+        clear:both;
+    }
+    
+    a{
+        outline: none;
+    }
+
+/* Layout general*/
+		
+    /* header */
+    #header{
+        clear:both;
+        width:966px;
+        margin:0 auto 0 auto;
+        display: block;
+        padding-top:40px;
+    }
+
+    /* logo */
+    #logo{
+        overflow:hidden;
+        float:left;
+        margin-left:6px;
+    }
+
+    #logo .png{
+        margin:0;
+        padding:0;
+        line-height:0px;
+        font-size:0px;
+    }
+
+    /* header right area */
+        #header_right{
+    }
+
+/* Backgrounds */
+    #container{
+    }  
+
+    #container1{
+        clear:both;
+        display:block;
+        padding-top:10px;
+    }
+    
+    #container2{
+        clear:both;
+        display:block;
+        min-height:194px;
+    }
+
+    #container3{
+        width:966px;
+        margin:0 auto;
+    }        
+ 
+/* main layout */
+
+    /* page curv top */
+    .page_curv_top{
+        height:24px;
+        width:966px;
+        position:absolute;
+        z-index:960;
+        margin:0 auto;
+        clear:both;
+        display:block;
+    }
+    
+    .content_con{
+        width:966px;
+    }
+
+    .content_con2{
+        display:block;
+        position:relative;
+        width:960px;
+        margin:0 auto;
+        padding-top:25px;
+    }
+    
+    .content{
+        width:635px;
+        float:left;
+        display:inline;
+        margin:0 auto;
+    }
+
+    /* content area for two columns sub pages */
+    .content.sub{
+        width:615px;
+        float:left;
+        margin:0 10px;
+    }
+
+    /* content area for full width sub pages */
+    .content.sub.fullwidth{
+        width:940px;
+        clear:both;
+        margin:0 10px;
+    }        
+
+    /* content area for product list */
+    .content.productlist{
+        width:630px;
+        float:left;
+        margin:0;
+    }        
+
+    /* sidebar */
+    .sidebar{
+        width:325px;
+        float:right;
+    }
+
+    /* layers for side shadow */
+    .sidebars1{ 
+        min-height:220px;
+        padding-bottom:5px;
+    }
+
+    .sidebars2{
+	min-height:220px;
+        padding-left:10px;
+    }
+    
+     .sidebars2 .box.small{
+        float:none;
+        clear:both;
+        padding-bottom:0px;
+    }
+ 
+ /* Featured Boxes */
+    .box{
+        margin:0 10px 20px 10px;            
+    }
+        
+    /* Single Box (home page)*/
+    .box.single{
+        width:610px;
+        float:left;
+        display:inline;
+    }
+ 
+     /* Single Box (homepage without sidebar)*/
+    .box.single.fullbox{
+        width:940px;
+	clear:both;
+        display:block;
+    }
+    
+    
+    /* Small Box (home page, side bar) */
+    .box.small{
+        width:295px;
+        float:left;
+        display: inline;
+    }
+
+    /* Small Boxes (three column home page) */    
+    .content_con2.three_column .box.small{
+        width:300px;
+        float:left;
+        display: inline;
+    }        
+
+    /* Featured box image margins */
+    .box .featured_image{
+        margin:10px 0 0;
+    }
+        
+    /* border of heading on featured boxes (home page, side bars)   */        
+    .box.small h4, .box.small h5, .box.single h3,  .box.side h4, .box.side h3{
+    }
+        
+     /* paragraph top space for boxes */ 
+    .box p{
+        margin:10px 0 0 0;
+        padding:0;
+    }
+    
+    .box br{
+	line-height:10px;
+    }
+
+    /* paragraph top space for single and full box (product details, home page) */ 
+    .box.full p, .product_left_side .box.single p{
+        margin:0px 0 0 0;
+        padding:0 0 20px 0;
+    }
+    
+    /* different color in home page welcome text */  
+    .box.single h3 span{
+    }
+        
+    .sidebars2 .box{
+        display:block;
+    }
+ 
+ /* Products detail tabs */
+    .ui-tabs-hide {
+        display: none;
+    }
+
+    #tabs{
+        clear:both;
+        display:block;
+    }
+
+    #tabs .tabnav{
+        clear:both;
+        margin:0;
+        padding:0;
+        border:0;
+        position:relative;
+        top:1px;
+        z-index:999; 
+    }
+
+    #tabs .tabnav li{
+        list-style-type:none;
+        list-style-position:inside;
+        float:left;
+        display:inline;
+        padding:0 14px 0 0px;
+        cursor:pointer;
+        margin-top:3px;
+        border:0;
+        line-height:30px;  
+    }   
+
+    #tabs .tabnav li a{
+        list-style-type:none;
+        list-style-position:inside;
+        float:left;display:inline;
+        padding:0px 0px 0 14px;
+        cursor:pointer;
+        font-size:11px;
+        height:28px;
+        outline: none;
+        text-decoration:none;
+    }
+
+    /* tab color hover state */
+    #tabs .tabnav li.ui-tabs-selected a,#tabs .tabnav li.ui-tabs-selected a:hover,  #tabs ul li.ui-tabs-selected{
+        margin-top:0px;
+        height:31px;            
+    }
+    
+
+    /* tab color active state */
+     #tabs ul li.ui-tabs-selected{
+        margin-top:2px;
+        line-height:33px; 
+    }
+    
+    #tabs #content{
+        clear:both;
+        width:590px;
+        margin:0px;
+        padding:10px;
+        display:block;
+    }
+
+    /* for product photos tab images */
+    #photos img{
+        display:inline;
+        margin:3px;
+    }
+
+
+/* Product List Page*/
+
+     /* Product Box*/
+    .box.product{
+        width:195px;
+        margin:0 5px 20px 10px;
+        float:left;
+        display: inline;
+        position:relative;
+    }
+
+    /* Product Photos */ 
+    .image.product_image{
+        margin:20px auto 10px auto;
+        text-align:center;
+        clear:both;
+        display:block;
+        padding:0;
+    }
+
+    /* Text Area */ 
+    .box.product .textarea{
+        margin:20px 10px 10px 10px;
+        font-size:12px;
+        position:relative;
+    }
+
+    /* Heading Size */         
+    .box.product .textarea h5{
+        font-size:17px;
+    }
+        
+    /* Price */         
+    .box.product .textarea .price{
+        font-size:15px;
+    }
+    
+    
+
+/* Product Detail Page */
+    .product_right_side{
+        float:left;
+        width:300px;
+        margin:10px;
+        margin:0;
+    }
+    
+    /* Document Icons*/
+    .doc_icons{
+        list-style-type:none;
+        list-style-position:inside
+    }
+
+    .doc_icons li{
+        float:left;
+        display:inline;
+    }
+ 
+    #tabs .box.product {
+        position: static;
+    }
+        
+     /* Tab Area*/   
+    .box.full{
+        width:615px;
+        margin:0;
+        clear:both;
+        display:block;
+        position:relative;
+    }
+
+    /* Product Detail Page*/
+    .box.full .box.product {
+        clear:both;
+        background:none;
+        width:590px;
+        margin:0px 0 10px 0;
+        padding-bottom:10px;
+    }
+
+    /* Product Photos in Tabs (related products) */
+    .box.full .box.product .product_image{
+        float:left;
+        margin: 0 10px 0 0 ;
+        padding:20px;
+    }
+
+    /* Related Products Text Area */        
+    .box.full .box.product .textarea{
+       width:378px;
+       float:right;
+       display:inline;
+       margin:0;
+       padding:0;
+    }
+
+    /* Related Products Price */       
+    .box.full .box.product .textarea .price{
+        margin:0;
+        padding:0;
+     }         
+
+    .box_curv{
+        padding:0;
+        margin:0;
+        clear:both;
+        display:block;
+    }
+        
+/* Blog */
+    .box.blog{
+        width:615px;
+        clear:both;
+        display:block;
+        margin:10px 0px 20px 0px;
+    }    
+    
+    /* post image */
+    .box.blog .post_image{
+        padding:5px 0;
+    }
+    
+    /* Date and Categories Bar */
+    .box.blog .dateandcategories{
+        font-size:11px;
+        padding:5px 0;
+        margin-bottom:4px;
+        clear:both;
+        display:block;
+        margin:10px 0 30px 0;
+    }
+
+    /* Links For Date and Categories */
+    .box.blog .dateandcategories a{
+        text-decoration: underline;
+    }
+    
+    .box.blog .dateandcategories a:hover{
+        text-decoration: none;
+    }
+   
+    .blog.box .dateandcategories .meta{
+	display:inline;
+    }
+   
+    .blog.box .dateandcategories  .comment{
+	text-decoration: none;
+	background:url(../images/icons/Comment.png) top left no-repeat;
+	padding:2px 0 2px 22px;
+	margin:0 0 0 10px;
+	display:inline;
+    }	    
+
+    .blog.box .dateandcategories .comment a{
+	text-decoration: none;
+    }	         
+        
+/* Portfolio */
+    .box.big_box{
+        width:300px;
+        float:left;
+        display:inline;
+        position:relative;
+        margin:10px;
+    }
+        
+    /* Portfolio Heading */    
+    .box.big_box h5{
+        margin:0 20px;
+        padding:20px 0 0 0;
+    }
+         
+    /* Paragraph space for portfolio boxes */                        
+    .box.big_box p{
+        margin:10px 20px 20px 20px;
+    }                
+    
+    /* Portfolio Heading */        
+    .image.portfolio{
+        margin:10px auto 0 auto;
+        text-align:center;
+        clear:both;
+        display:block;
+        padding:0;
+    }
+        
+    .portfolio_slide_img.image.portfolio{
+        margin:0;
+    }
+
+    /* Portfolio Categories Bar*/        
+    .portfolio_categories{
+        width:940px;
+        height:45px;
+        margin:10px auto;
+    }
+        
+    /* Left Side Text */     
+    .portfolio_categories h5{
+        position:absolute;
+        left:0;
+        margin:13px 10px 0 30px;
+        padding:0px 0 0 0;
+        line-height:20px;
+    }
+
+    /* Category Links */ 
+    .portfolio_categories ul{
+        list-style-type: none;
+        list-style-position:outside;
+        position:absolute;
+        right:0;
+        margin:15px 30px 0 10px;
+    }
+
+    .portfolio_categories ul li{
+        float:left;
+        font-size:14px;
+        margin:0 10px;
+        padding:0;
+        line-height:14px;
+    }
+        
+    /* Category Links Style*/ 
+    .portfolio_categories ul li a{
+        text-decoration:none;
+    }        
+
+    .portfolio_categories ul li a:hover{
+        text-decoration:none;
+    }
+
+    /* Category Links Active Page Style */ 
+    .portfolio_categories ul li a.active{
+        text-decoration:underline;
+    }
+
+    .portfolio_categories ul li a.active:hover{
+        text-decoration:none;
+    }
+
+/* Portfolio Slider */
+
+    #porfolio_slider{
+        width:940px;
+        margin:0 auto 20px auto;
+        position:relative;
+        z-index:666;
+	height:300px;
+	overflow:hidden;	
+    }
+    
+    .pslide{
+
+    }
+    
+    .portfolio_curv_top{
+        position:absolute;
+        top:0px;
+        z-index:668;
+    }
+
+    .portfolio_curv_bottom{
+        position:absolute;
+        bottom:0px;
+        z-index:668;
+    }
+
+    /* Content Area */
+    .portfolio_slide_content{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:940px;
+        font-size:11px;
+        overflow:hidden;
+        height:90px;
+    }
+        
+    /* Slide Title */
+    .portfolio_slide_content .title{
+       width:920px;
+       padding:10px 10px 10px 20px;
+       font-size:17px;
+       height:15px;
+   }
+ 
+    /* Title Link */
+    .portfolio_slide_content .title  a{
+        text-decoration:none;
+    }
+    
+    .portfolio_slide_content .title  a:hover{
+        text-decoration:none;
+    }
+
+    /* Category Link */    
+    .portfolio_slide_content .title  a.cat{
+        text-decoration:none;
+    }
+
+    .portfolio_slide_content .title  a.cat:hover{
+        text-decoration:none;
+    }
+
+    /* Content Link */
+    .portfolio_slide_content .text a{
+        text-decoration:underline;
+    }
+    
+    .portfolio_slide_content .text a:hover{
+        text-decoration:none;
+    }
+        
+    /* Content Text */
+    .portfolio_slide_content .text{
+        width:900px;
+        height:45px;
+        clear:both;
+        position:relative;
+        padding:5px 20px 15px 20px ;
+        font-size:13px;
+    }
+       
+    /* Slider Arrows */ 
+    .portfolio_slider_arrows{
+        position:absolute;
+        top:220px;
+        right:10px;
+        z-index:987;
+        width:40px;
+    }
+
+    .portfolio_slider_arrows .left{
+        width:10px;
+        height:22px;
+        float:left;
+        cursor:pointer;
+        margin-right:5px;
+    }
+
+    .portfolio_slider_arrows .right{        
+        width:10px;
+        height:22px;
+        float:left;
+        cursor:pointer;
+    }
+    
+    /* Curvs*/ 
+    .p_image_top{
+       position:absolute;
+       top:0;
+       margin-bottom:10px;
+    }
+    
+    .p_image_bottom{
+       position:absolute;
+       bottom:0;
+    }
+    
+    /* Play and Zoom Icon */    
+    .play{
+    }
+    
+    .magnifier{
+    }
+    
+/* Paging */
+
+    .paging {
+        display:block;
+        clear:both;
+        padding:10px 10px 0 10px;
+        overflow:hidden;
+    }
+        
+    .paging.blog {
+	padding:0;
+    }
+	
+    .paging ul, .paging ul li{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+    }
+        
+    .sub.content .paging li, .sub.content .paging ul{
+	border:0;
+    }
+        
+    .paging ul li{
+	display:inline;
+	margin-right:5px;
+	float:left;
+	font-size:12px;
+	line-height:11px;
+    }
+
+    /* paging link*/
+   .paging ul li a, .paging ul li.active a{
+       border:0;
+       padding:8px 0px;
+       overflow:hidden;
+       width:28px;
+       display:block;
+       text-align:center;
+       text-decoration:none;
+   }
+   
+    /* paging mouseover*/
+    .paging ul li.active a, .paging ul li a:hover{
+       text-decoration:none;
+    }
+     
+    /* Arrow Left */   
+    .paging ul li.arrowleft a{
+    }
+        
+    /* Arrow Left Hover State */
+    .paging ul li.arrowleft a:hover{
+    }        
+
+    /* Arrow Right  */
+    .paging ul li.arrowright a{
+    }
+    
+    /* Arrow Right Hover State */    
+    .paging ul li.arrowright a:hover{
+    } 
+ 
+/* News Box */
+    .news_line{
+        height:2px;
+        width:auto;
+        margin:6px 0;
+    }
+
+    .news_date{
+        letter-spacing:1.5px;
+        font-size:9px;
+    }
+
+    a.news {
+        text-decoration:none;
+        position:relative;
+        display:inline;
+    }
+
+    a.news:hover {
+        text-decoration:underline;
+    }
+    
+        
+/* Home Page Slider */
+    #slider_con{
+        display:block;
+        clear:both;
+        padding:0px;
+        margin:0;
+        width:960px;
+        margin:0 auto;
+        height:350px;
+        position:relative;
+    }
+        
+        
+    #slider_area{
+        overflow:hidden;
+        width:940px;
+        margin:0 auto;
+        position:relative;
+        z-index:1;
+        height:350px;
+    }
+        
+    .slide{
+        margin-top:13px;
+        width:940px;
+    }
+
+    .slide .image{
+        margin:0;
+        padding:0;
+        border:0;
+        position:relative;
+        top:0;
+        left:0;
+    }
+        
+    /* slider right side */
+    #slider_area .right_side{
+        height:260px;
+        width:290px;
+        padding:70px 10px 10px 10px;
+        position:absolute;
+        left:610px;
+        z-index:6;
+        right:0;
+        top:0;
+        margin:0px 10px;
+        font-size:12px;
+        overflow:hidden;
+    }
+        
+    .slider_curv{
+        height:56px;
+        position:absolute;
+        top:300px;
+        z-index:940;
+        width:960px;
+        clear:both;
+    }
+        
+    /* slider numbers*/
+    #numbers{
+        z-index:999;
+        padding:0px 0 0 0px ;
+        position:absolute;
+        bottom:50px;
+        left:13px;
+        width:14px;
+    }
+
+    #numbers img{
+        padding:2px 0;
+    }
+        
+    /* active number style*/
+    #numbers a { 
+        display:block;
+        outline: none;
+    }
+
+
+    /* slider numbers*/
+    /* active number style*/
+    #numbers    a{ 
+    }
+    
+    #numbers   a:hover{ 
+    }
+    
+    #numbers   a.activeSlide{ 
+    }
+
+
+ 
+/* News Box */
+    .news_line{
+        background:transparent url(line_sil.jpg) repeat-x;
+    }
+
+    .news_date{
+        color:#C3C3C3;
+    }
+
+    a.news {
+        color:#107fa4;
+    }
+
+    a.news:hover {
+    }
+    
+        
+/* Home Page Slider */
+   
+        
+    /* slider right side */
+    #slider_area .right_side{
+        background:#107fae url(slider_r.jpg) top left no-repeat;
+        border-left:10px solid white;
+        color:#fff;
+    }
+
+    #slider_area .right_side a, .right_side h3{
+        color:#fff;
+    }    
+        
+    #slider_area .right_side a:hover{
+        color:#fff;
+    }
+    
+    .slider_curv{
+        background:transparent url(slider_c.png) center no-repeat;
+    }
+
+    /* slider numbers*/
+    /* active number style*/
+    #numbers    a{ 
+        background: transparent url(slider_p.png) right top no-repeat;
+    }
+    
+    #numbers   a:hover{ 
+        background: transparent url(slider_p.png) left top no-repeat;
+    }
+    
+    #numbers   a.activeSlide{ 
+        background: transparent url(slider_p.png) left top no-repeat;
+    }
+
+
+/* sub navigation */
+
+    /*Sub page list*/
+    #sub_menu  li{	
+        border-bottom:1px dotted #D5D5D5;
+    }
+    
+    /*Sub page menu*/
+    #sub_menu  li a{
+        background:transparent url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/side_arrow_off.jpg) no-repeat;
+        color:#979C97;               
+    }
+    
+    #sub_menu  li a:hover{
+        background:transparent url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/side_arrow_on.jpg) no-repeat;
+        color:#10729c;
+    }
+        
+
+/* Footer */
+    #footer {
+        background:transparent url(footer_r.jpg) repeat-x;
+        color:#9D9D9D;
+    }
+    
+    #footer .footer_con{
+        background:transparent url(footer00.jpg) center top no-repeat;                
+    }
+    
+    /* footer1 links */
+    #footer  a{
+        color:#9D9D9D;
+    }
+    
+    #footer  a:hover{
+    }
+
+/*  sub page header */
+    .sub_header{
+        border-bottom:1px solid #E4E4E4;
+    }
+        
+/* Breadcrumb Menu */
+    .breadcrumb{
+        color:#c7c7c7;
+    }
+    
+    .breadcrumb  a{	
+        color:#969696;
+    }
+    
+/* search bar */
+    .search_bar{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/search.jpg) no-repeat;
+    }
+    
+    .search_bar form input{
+        color:#adadad;
+    }
+    
+/* Navigation */
+    .navigation{
+        background: transparent; /*background of menu bar (default state)*/
+    }
+    
+    /*Top level menu link items style*/
+    .navigation ul li a{
+        color:#10729c;
+    }
+    
+    .navigation ul li ul li a{
+        border-bottom:1px dashed #52afd5; 
+    }
+    
+    .navigation ul li .first_ul li a:hover, .navigation ul li ul a.selected{
+        color:#82d1f3;
+    }
+    
+
+    
+    /* active state & hover state */         
+    .li_active, .navigation ul .active, ul.navigation li.current_page_item, ul.navigation li.current_page_parent {
+        background: #fff url(menu_but.jpg) right top no-repeat;
+        color:#fff;
+    }        
+    
+    .navigation ul li .a_active, .navigation ul .active a, ul.navigation li.current_page_item a, ul.navigation li.current_page_parent a{
+        background: #fff url(menu_but.jpg) left top no-repeat;
+        color:#fff;
+    }
+
+    .navigation ul li ul li, ul.navigation li ul li.current_page_item, ul.navigation li ul li.current_page_parent{
+        background: transparent url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/drop_down_middle.png) left repeat-y;
+    }           
+    
+        
+    ul.navigation li.current_page_item ul li a,  ul.navigation li ul li a,  ul.navigation li.current_page_parent ul li a, ul.navigation li ul li.current_page_parent a{
+        background:none;
+        color:#fff;
+    }
+    
+    .navigation ul .active ul a{
+        background: none;
+    }
+    
+    
+    /*first ul background*/
+    .navigation ul li .first_ul{
+        background: transparent url(drop_dow.png) bottom left no-repeat;
+    }  
+    
+    .navigation ul.navigation li ul .first_li{
+        background: transparent url(drop_dox.png) top left no-repeat;
+    }                     
+
+/* Lists */
+    .content.sub ul ul, .content.sub ol ol{
+        border-top:0px solid #EBEBEB;;
+    }
+    
+    .content.sub ul ul li, .content.sub ol ol li{
+        border-bottom:0px solid #EBEBEB;
+    }
+    
+    .content.sub ul, .sub.content ol  {	
+        border-top:1px solid #EBEBEB;
+    }
+    
+    .sub.content li{
+        border-bottom:1px solid #EBEBEB;
+    }
+    
+    /* No Bulet List*/     
+    
+    /* sidebar list */
+    
+    .sidebar .box  li{	
+        border-bottom:1px solid #EBEBEB;
+    }
+        
+/* Links */	 
+    a{
+        color:#6dd1fb;
+    }
+    
+    a:hover{
+        color:#107fae;
+    }
+    
+    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        color:#107fa4
+    }
+    
+    h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{
+        color:#6dd1fb;
+    }
+        
+/* Headings*/
+    h1,h2,h3,h4,h5,h6{
+        color:#107fa4;
+    }
+    
+/* Text Elements */
+    blockquote {
+        background:transparent url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/blockquote.png) left top no-repeat;
+        color:#A0A0A0;
+    }
+        
+/*contact form */
+/*contact form validation*/
+    #validate_form label{
+        color:#107fa4;
+    }
+    
+    #validate_form label.error {
+        color: red;
+        border: 0px solid red;
+    }
+    
+    #validate_form .error{
+        color: red;
+        border: 1px solid red;
+    }
+    
+/* Form Messages*/
+    .ok_box{
+        border:1px  dashed green;
+        color:green;
+    }    
+
+    .ok_box h3{
+        color:green;
+    }    
+    .error_box, #loader{
+        border:1px  dashed red;
+        color:red;
+    }
+    
+/* Forms */
+    input, select, textarea{
+        color:#696969;
+        border:1px solid #EBEBEB;
+    }
+    
+    .button{
+        color:#fff;
+        background:#107fa4;
+        border:1px solid #107fa4;
+    }
+    
+    .button:hover{
+        border:1px solid #107fa4;
+        background:#fff;
+        color:#107fa4;
+    }
+        
+        
+/* Tables */
+    tbody tr:hover td
+    {
+    }
+    
+    table{
+        border: 1px dotted #e2e2e2;
+    }
+    
+    table th {
+        background:#e2e2e2;
+    }
+    
+    table td {
+        border: 1px dotted #e2e2e2;
+    }
+      

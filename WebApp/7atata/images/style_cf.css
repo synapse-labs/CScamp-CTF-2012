@@ -1,0 +1,944 @@
+/*
+    File Name: style_cf.css
+    Only Color and Background Values Of All Elements
+    
+*/
+
+/* body */
+    body {
+        background-color:#eeeeee;
+        color:#707070;
+    }
+
+/* Layout general*/
+/* Backgrounds */
+    #container{
+        background:#fff;
+    }  
+
+    #container1{
+        background:#fff url(backgrou.jpg) 0 50px repeat-x;
+    }
+    
+    #container2{
+        background:transparent url(backgrov.jpg) center 25px no-repeat;
+    }
+ 
+/* main layout */
+
+    /* page curv top */
+    .page_curv_top{
+        background:transparent url(page_cur.png) center no-repeat;
+    }
+    
+    .content_con{
+        background:transparent url(page_con.png) center repeat-y;
+    } 
+
+    /* sidebar */
+    .sidebar{
+        background: transparent url(side_bar.jpg) left repeat-y;
+    }
+
+    /* layers for side shadow */
+    .sidebars1{ 
+        background:transparent url(sidebar_.jpg) left bottom no-repeat;
+    }
+
+    .sidebars2{ 
+        background:transparent url(sidebar0.jpg) left top no-repeat;
+    }
+ 
+ /* Featured Boxes */
+ 
+    /* border of heading on featured boxes (home page, side bars)   */        
+    .box.small h4, .box.small h5, .box.single h3,  .box.side h4, .box.side h3{
+        border-bottom:1px dotted #D5D5D5;
+    }
+    
+    /* different color in home page welcome text */  
+    .box.single h3 span{
+        color:#6dd1fb;
+    }
+ 
+ /* Products detail tabs */
+
+    #tabs .tabnav li{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/tab.jpg) right top;
+    }   
+
+    #tabs .tabnav li a{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/tab.jpg) left top;
+        color: #A9A9AE;
+    }
+    
+    /* tab color hover state */
+    #tabs .tabnav li.ui-tabs-selected a,#tabs .tabnav li.ui-tabs-selected a:hover,  #tabs ul li a:hover, #tabs ul li.ui-tabs-selected{
+        color:#107fae;        
+    }
+
+    /* tab color active state */
+     #tabs ul li.ui-tabs-selected{
+        color:#107fae;
+    }
+
+    /* for product photos tab images */
+    #photos img{
+        border:1px solid #eeeeee;
+    }
+
+
+/* Product List Page*/
+
+     /* Product Box*/
+    .box.product{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/small_box_middle.jpg) repeat-y;
+    }
+        
+    /* Price */         
+    .box.product .textarea .price{
+        color:#D5D5D5;
+    }
+    
+/* Product Detail Page */
+
+     /* Tab Area*/   
+    .box.full{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/full_box_middle.jpg) repeat-y;
+    }
+
+    /* Product Detail Page*/
+    .box.full .box.product {
+        border-bottom:1px dotted #D5D5D5;
+    }
+
+    /* Product Photos in Tabs (related products) */
+    .box.full .box.product .product_image{
+        border:1px dotted #D5D5D5;
+    }
+        
+/* Blog */
+    
+    /* post image */
+    .box.blog .post_image{
+        border-bottom:1px dotted #D5D5D5;
+        border-top:1px dotted #D5D5D5;
+    }
+    
+    /* Date and Categories Bar */
+    .box.blog .dateandcategories{
+        border-bottom:1px dotted #D5D5D5;
+        border-top:1px dotted #D5D5D5;
+        color:#989898;
+    }
+
+    /* Links For Date and Categories */
+    .box.blog .dateandcategories a{
+        color:#989898;
+    }
+    
+    .box.blog .dateandcategories a:hover{
+        color:#6dd1fb;
+    }
+        
+        
+/* Portfolio */
+    .box.big_box{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/big_box_middle.jpg) repeat-y;
+    }
+
+    /* Portfolio Categories Bar*/        
+    .portfolio_categories{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/portf_categories.jpg) no-repeat;
+    }
+        
+    /* Left Side Text */     
+    .portfolio_categories h5{
+        color:#B5B5B5;
+    }
+
+    /* Category Links Style*/ 
+    .portfolio_categories ul li a{
+        color:#B5B5B5;
+    }        
+
+    .portfolio_categories ul li a:hover{
+        color:#6dd1fb;
+    }
+
+    /* Category Links Active Page Style */ 
+    .portfolio_categories ul li a.active{
+        color:#6dd1fb;
+    }
+
+    .portfolio_categories ul li a.active:hover{
+        color:#107fae;
+    }
+
+/* Portfolio Slider */
+
+    /* Content Area */
+    .portfolio_slide_content{
+        background:#1384b4 url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/portfolio_light.png) top left no-repeat;
+    }
+        
+    /* Slide Title */
+    .portfolio_slide_content .title{
+       border-bottom:1px dashed #CCEBFB;
+       color:#c5dce6;
+   }
+ 
+    /* Title Link */
+    .portfolio_slide_content .title  a{
+        color:#fff;
+    }
+    
+    .portfolio_slide_content .title  a:hover{
+        color:#c5dce6;
+    }
+
+    /* Category Link */    
+    .portfolio_slide_content .title  a.cat{
+        color:#c5dce6;
+    }
+
+    .portfolio_slide_content .title  a.cat:hover{
+        color:#fff;
+    }
+
+    /* Content Link */
+    .portfolio_slide_content .text a{
+        color:#fff;
+    }
+    
+    .portfolio_slide_content .text a:hover{
+        color:#fff;
+    }
+        
+    /* Content Text */
+    .portfolio_slide_content .text{
+        color:#fff;
+    }
+       
+    /* Slider Arrows */ 
+
+    .portfolio_slider_arrows .left{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/portfolio_slider_arrows.png) left no-repeat;
+    }
+
+    .portfolio_slider_arrows .right{
+        background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/portfolio_slider_arrows.png) right no-repeat;            
+    }
+    
+    /* Play and Zoom Icon */    
+    .play{
+      background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/play.png) center no-repeat;
+    }
+    
+    .magnifier{
+      background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/magnifier.png) center no-repeat;
+    }
+    
+/* Paging */
+
+
+    /* paging link*/
+   .paging ul li a, .paging ul li.active a{
+       background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 104px 0 ;
+       color:#C3C3C3;
+   }
+   
+    /* paging mouseover*/
+    .paging ul li.active a, .paging ul li a:hover{
+       color:#fff;
+       background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 200px 0 ;
+    }
+     
+    /* Arrow Left */   
+    .paging ul li.arrowleft a{
+         background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 72px 0 ;
+    }
+        
+    /* Arrow Left Hover State */
+    .paging ul li.arrowleft a:hover{
+         background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 168px 0 ;
+    }        
+
+    /* Arrow Right  */
+    .paging ul li.arrowright a{
+         background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 40px 0 ;
+        
+    }
+    
+    /* Arrow Right Hover State */    
+    .paging ul li.arrowright a:hover{
+         background:url(http://excelpharma.com.eg/main/wp-content/themes/rttheme9/images/1/paging_buttons.jpg) 136px 0 ;
+    } 
+	
+	
+/* sub navigation */
+    #sub_menu, #sub_menu li{	
+        padding:0;
+        list-style-type:none;
+        margin:0;
+    }
+    
+    /*Sub page list*/
+    #sub_menu  li{	
+        padding:5px 0 4px 0;
+        border:0;  
+    }
+    
+    /*Sub page menu*/
+    #sub_menu  li a{
+        line-height:18px;	
+        padding-left:15px;
+        text-decoration:none;
+        border:0;           
+    }
+    
+    #sub_menu  li a:hover{
+    }
+        
+    #sub_menu li ul {	
+	margin:0px 0 0 5px;
+	background:none;
+	list-style: none;
+	list-style-position: inside;
+    }
+	
+    #sub_menu  li ul li{
+	padding:3px 0 4px 0;
+	margin:0 0 0 10px;
+	background:none;
+	border-bottom:0px;
+    }
+    
+    #sub_menu  li ul li a{
+	background:transparent url(../images/arrow.jpg) no-repeat;
+	font-size:11px;
+    }
+
+    #sub_menu  li ul li a:hover{
+	background:transparent url(../images/arrow.jpg) no-repeat;
+	font-size:11px;
+    }    
+    
+/* Footer */
+    #footer {
+        min-height:120px;
+        clear:both;
+    }
+    
+    #footer .footer_con{
+        margin: 0px auto;	
+        min-height:120px;
+        clear:both;
+        text-align:left;             
+    }
+    
+    #footer .footer_con2{
+        margin: 0px auto;
+        width:940px;
+    }
+    
+    /* footer1 copyright text */
+    #footer .part1{
+        float:left;
+        margin:70px 15px 0 0;
+        font-size:11px;
+        line-height:14px;
+    }
+    
+    #footer .part2 {
+        float:left;
+        margin:65px 15px 0 0;
+    }
+    
+    
+    /* footer1 navigation */
+    #footer .part3{
+        float:right;
+        margin-top:70px;
+        font-size:11px;
+        line-height:14px;
+    }
+    /* footer1 links */
+    #footer  a{
+        text-decoration:none;
+    }
+    #footer  a:hover{
+        text-decoration:underline;
+    }
+
+/*  sub page header */
+    .sub_header{
+        width:940px;
+        margin:0 auto;
+        height:40px;
+        position:relative;
+        top:10px;
+        clear:both;
+        display:block;
+        z-index:969;
+    }
+        
+/* Breadcrumb Menu */
+    .breadcrumb{
+        padding:8px 0 0 0 ;
+        font-size:10px;
+        position:absolute;
+        left:0;
+        top:0;
+    }
+    
+    .breadcrumb  a{	
+        margin-left:0px;
+        text-decoration:none;
+    }
+    
+    .breadcrumb a:hover{
+        text-decoration:underline;
+    }
+
+/* search bar */
+    .search_bar{
+        padding:8px 0 0 0 ;
+        font-size:10px;
+        position:absolute;
+        right:1px;
+        top:5px;
+        width:300px;
+        height:26px;
+    }
+    
+    .search_bar form input{
+        height:20px;
+        position:absolute;
+        top:1px;
+        margin-left:10px;
+        width:250px;
+        line-height:22px;
+        font-size:11px;
+        padding:2px 0 0 0;
+        border:0;
+    }
+    
+    .search_bar form .searchsubmit{
+        border:0;
+        width:24px;
+        height:18px;
+        position:absolute;
+        right:5px;
+        top:0px;
+    }            
+
+/* Navigation */
+    .navigation{
+        background: transparent; /*background of menu bar (default state)*/
+        font-size: 12px;
+        margin:0px 0 0 0;
+        padding-top:15px;
+        position:relative;
+        z-index:999;
+    }
+    .navigation ul{
+        z-index:100;
+        list-style-type: none;
+        list-style-position:outside;
+        border:0;
+        margin:0;
+        padding: 0;
+        float:right;
+    }
+    
+    /*Top level list items*/
+    .navigation ul li{
+        position: relative;
+        display: inline;
+        float: left;
+        text-align:center;
+        margin: 0 4px 0 0;
+        padding:0 12px 0 0;
+        border:0;
+        text-decoration: none;
+        font-size: 10px;
+
+	/* Capitalize Menu Texts*/
+	text-transform: uppercase;
+
+    }
+    
+    /*Top level menu link items style*/
+    .navigation ul li a{
+        display: block;
+        text-decoration: none;
+        padding:0px 0 2px 12px;
+        margin:0px;
+        text-decoration: none;
+        font-size:11px; 
+    }
+    
+    * html .navigation ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+        display: inline-block;
+    }
+    
+    .navigation ul li ul{
+        position:absolute;
+        width:193px;
+        display:none;
+    }
+    
+    .navigation ul li ul li, .navigation ul li ul li a{
+        clear:both;
+        margin: 0;
+        padding: 0 10px 0 10px;            
+        text-align:left;
+        width:176px;
+    }
+    
+    .navigation ul li ul li a{
+        width:160px;
+    }
+    
+    .navigation ul li .first_ul li a:hover, .navigation ul li ul a.selected{
+        margin:0; 
+    }
+    
+    .navigation ul li ul li {
+    }           
+    
+    
+    /* active state & hover state */         
+    .li_active, .navigation ul .active, ul.navigation li.current_page_item{
+    }        
+    
+    .navigation ul li .a_active, .navigation ul .active a, ul.navigation li.current_page_item a{
+    }
+    
+    ul.navigation li.current_page_item ul li a,  ul.navigation li ul li a{
+        background:none;
+        padding:4px 6px;
+    }
+    
+    .navigation ul .active ul a{
+        background: none;
+    }
+    
+    
+    /*first ul background*/
+    .navigation ul li .first_ul{
+        padding:6px 0 12px 0;
+        margin:0;
+        width:193px;
+    }  
+    
+    .navigation ul li ul .first_li{
+        padding-top:6px;
+        width:193px;
+    }
+    
+    .navigation ul li ul .last_li{
+        border-bottom:0px;
+    }                            
+
+/* Brand Logos */
+    .sidebar .box .brands{
+       list-style:none;
+       margin:0;
+       padding:0;
+       border:0;
+   }
+   
+   .sidebar .box .brands li{
+       float:left;
+       margin:0 5px;
+       border:0;
+   }
+
+/* Lists */
+    ul, ol{
+        list-style-position:outside;
+        margin:0px 0px 20px 20px;
+    }
+    
+    /* content lists */
+    .content.sub ul, ol{
+        list-style-position:inside;
+        margin:0px 0px 20px 0px;
+    }
+    
+    .content.sub ul ul, .content.sub ol ol{
+        list-style-position:inside;
+        padding:0 10px;
+        margin:0px 0px 0px 0px;
+    }
+    
+    .content.sub ul ul li, .content.sub ol ol li{
+        list-style-position:inside;
+        padding:0px 10px 0px 10px;
+        margin:5px 0px 5px 0px;
+    }
+    
+    .content.sub ul, .sub.content ol  {	
+    }
+    
+    .sub.content li{
+    }
+    
+    /* No Bulet List*/
+    ul.nobullet, ol.nobullet{
+        list-style:none;
+        list-style-position:outside;
+        margin:0px 0px 20px 20px;
+    }        
+    
+    /* sidebar list */
+    .sidebar .box ul{	
+        padding:0;
+        list-style-type:none;
+        border:0;
+        margin:0;
+    }
+    
+    .sidebar .box  li{	
+        padding:3px 0 7px 0;
+    }
+
+    .sidebar .box  li ul {	
+	margin:0px 0 0 5px;
+	background:none;
+	list-style: url(../images/arrow.jpg);
+	list-style-position: inside;
+
+    }
+	
+    .sidebar .box  li ul li{
+	padding:3px 0 4px 0;
+	margin:0 0 0 10px;
+	background:none;
+	border-bottom:0px;
+    }
+	
+    .sidebar .box  li a{	
+        font-size:13px;
+        margin-left:0px;
+        text-decoration:none;
+        border:0;
+    }
+    
+    .sidebar .box  li a:hover{
+    }        
+        
+/* Links */	 
+    a{
+        text-decoration:underline;
+    }
+    
+    a:hover{
+        text-decoration:none;
+    }
+    
+    h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+        text-decoration:none;
+    }
+    
+    h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover{
+        text-decoration:none;
+    }
+        
+/* Headings*/
+    h1,h2,h3,h4,h5,h6{
+        letter-spacing:0px;
+        font-weight:normal;
+        position: relative;
+        padding: 0 0 10px 0;
+        font-family: 'Trebuchet MS', 'Arial', Helvetica, san-serif;               
+        font-weight:normal;
+    }
+    
+    h1{
+        font-size: 34px;
+        line-height:54px;
+    }
+    
+    h2{
+        font-size: 26px;
+        line-height:36px;		
+    }
+    
+    h3{
+        font-size: 24px;
+        line-height:100%;
+    }
+    
+    h4{
+        font-size: 20px;
+        line-height:30px;			
+    }
+    
+    h5{
+        font-size: 18px;
+        line-height:27px;		
+    }
+    
+    h6{
+        font-size: 16px; 
+        line-height:24px;	
+    }
+
+/* Text Elements */
+    blockquote {
+        font-size:15px;
+        line-height: 24px;
+        padding:10px 0 10px 75px;
+        margin:10px 0px 30px 5px;
+        font-style:italic;
+        font-family:"Georgia","Times New Roman", sans-serif;
+    }
+    
+    blockquote em, blockquote i, blockquote cite {
+        font-style:normal;
+    }
+    
+    pre {
+        line-height:18px;
+        margin-bottom:18px;
+    }
+    
+    code {
+    }
+    
+    ins {
+        text-decoration:none;
+    }
+    
+    sup {
+        bottom: 1ex;
+    }
+    
+    sub {
+        top: .5ex;
+    }
+    
+    p {
+        padding-bottom:15px;
+    }
+
+/*contact form */
+    #contact_form ul, #contact_form ul li{
+        list-style-type:none;
+        list-style-position:outside;                
+        border:0;
+        margin:0;
+        padding:0;
+    }
+    
+    #contact_form ul li {
+        margin:0px 0 4px 0px;
+        padding:4px 0 4px 0px;
+    }
+
+/*contact form validation*/
+    #validate_form label{
+        display: block;
+    }
+    
+    #validate_form label.error {
+        display: block;
+        font-style: italic;
+        font-weight: normal;
+    }
+    
+    #validate_form .error{
+    }
+    
+    #contact_form input, #contact_form select{
+        width:300px;
+    }
+    
+    #contact_form textarea{
+        width:500px;
+    }
+    #contact_form .button{
+        width:100px;
+    }
+
+/* Forms */
+    input, select, textarea{
+        font-size:13px;
+        position:relative;
+        outline: none;
+        padding:4px;
+        margin-right:1px;
+    }
+    
+    .button{
+        cursor:pointer;
+        padding:3px 20px;
+        clear:both;
+        border:none;
+        overflow:visible;
+        outline: none;
+    }
+    
+    .button:hover{
+        overflow:visible;
+    }
+    
+    .searchbox{
+        width:182px;
+        margin-right:4px;
+    }
+    
+    .button.search{
+        width:auto;
+    }
+
+    #comment{
+	width:560px;
+    }	    
+        
+/*contact form */
+/*contact form validation*/
+    #validate_form label{
+    }
+    
+    #validate_form label.error {
+    }
+    
+    #validate_form .error{
+    }
+    
+/* Form Messages*/
+    .ok_box{
+        padding:20px;
+        margin:10px auto;
+        font-size:13px;
+    }    
+
+    .ok_box h3{
+        font-size:18px;
+    }    
+    .error_box, #loader{
+        padding:20px;
+        margin:10px auto;
+        font-size:13px;
+    }
+    
+/* Forms */
+    input, select, textarea{
+        font-family: Arial, Helevtica, Verdana, san-serif;
+    }
+    
+    .button{
+    }
+    
+    .button:hover{
+    }
+        
+        
+/* Tables */
+    table{
+        width:100%;
+        border-collapse:collapse;
+        border-spacing:0;	
+    }
+    
+    table caption strong{
+        text-align:left;
+        font-size: 14px;
+        font-weight: normal;
+        line-height:20px;
+        font-weight:bold;
+    }
+    
+    table caption{
+        text-align:left;
+        padding: 10px;
+    }
+    
+    table th {
+        padding: 13px;
+        font-size: 12px;
+    }
+    
+    table td {
+        padding: 10px;
+        text-align: left;
+    }
+   
+
+/* Images and Alignments */
+    img {
+        border:0px;
+        margin:0px;
+        padding:0px;
+    }
+    
+    img.aligncenter{
+        display:block;
+        text-align:center;
+        display: block;
+        margin:0 auto 0 auto;
+        padding:0px;
+        border:0px;
+        background:none;
+    }
+    
+    img.alignleft{
+        float:left;
+        margin: 2px 8px 2px 0;
+        display: inline;
+        border:0px;
+        background:none;
+        padding:0;
+    }
+
+    .box .featured_image.alignleft {
+        margin: 10px 8px 2px 0;
+    }        
+    
+    img.alignright{
+        padding:0;
+        float:right;
+        margin: 2px 0px 2px 8px;
+        border:0px;
+        background:none;
+    }
+   
+
+
+/*	Comment-Styles */
+
+    .fn, .says{
+	    color:#A3A3A3;
+    }
+
+    .commentlist p{
+	    padding:12px 67px;
+    }
+
+    .commentlist li  {
+	    font-size: 100%;
+	    list-style-type: none;
+	    padding-top:10px;
+    }
+
+    .avatar {
+	    float: left;
+	    margin-right: 25px;
+	    border: 1px dotted #ccc;
+	    padding: 4px;
+    }
+     .comment-meta.commentmetadata{
+	    font-size:10px;
+    }
+
+    #respond p label{
+	    margin-left:10px;
+    }
+
+    #respond p {
+	    padding:2px 0;
+    }    
